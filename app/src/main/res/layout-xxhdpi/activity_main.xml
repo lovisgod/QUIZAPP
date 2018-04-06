@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayooluwa.quizapp.MainActivity">
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 1:WHAT IS THE NAME OF YOUR TEACHER"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1">
+
+            <RadioButton
+                android:id="@+id/answer11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mr sampson"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mr tayo"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mr tope"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 2:WHAT IS THE NAME OF YOUR Father"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2">
+
+            <RadioButton
+                android:id="@+id/answer12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mr sampson"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mr tope"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mr johnson"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 3:WHAT IS THE NAME OF YOUR mother"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3">
+
+            <RadioButton
+                android:id="@+id/answer13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mrs sampson"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mrs titi"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mrs ibrahim"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 4:WHAT IS THE NAME OF YOUR BROTHER"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="FRANCHESCO"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="danny"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="don"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=" 5:WHAT IS THE NAME OF YOUR SISTER"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/answer15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="mary"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="JOY"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/answer35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:text="olamide"
+                android:textColor="#166fd5"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:onClick="submit"
+            android:text="SUBMIT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          android:onClick="reset"
+          android:text="Reset"
+          android:textColor="#bfbd"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:background="@color/colorPrimary"/>
+  </RelativeLayout>
+</ScrollView>
